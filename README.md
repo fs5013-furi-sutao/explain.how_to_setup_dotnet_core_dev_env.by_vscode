@@ -26,14 +26,13 @@ VSCodeを起動。ショートカット[Ctrl + Shift + X] で拡張機能を表�
 
 検索ワード「C#」を入力。検索結果一覧から[C# for Visual Studio Code]を選択し、[install] をクリックする。
 
-## 【動作確認】プロジェクトの作成～デバッグ
-Git Bash を起動。
-C#のプロジェクトを格納するフォルダ（例：C:/github/sample/csharp/Test）を作成します。
+## プロジェクトの作成
+Git Bash を起動。C# のプロジェクトを格納するフォルダを作成。
 ```console
 mkdir ./first.net.core
 ```
 
-cdコマンドで作成したフォルダ内に移動。
+cd コマンドで作成したフォルダ内に移動。
 ```console
 cd ./first.net.core
 ```
@@ -45,6 +44,7 @@ dotnet new console
 
 Program.cs などのファイルが自動生成される。
 
+## プログラムの実行・動作確認
 VSCode でプロジェクトフォルダ（例：first.net.core）を開き、「Ctrl + Shift + D」にてデバッグを表示。
 
 以下のようなメッセージが出現したら、「Yes」を選択。
