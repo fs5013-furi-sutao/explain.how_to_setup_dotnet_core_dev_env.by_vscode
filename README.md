@@ -1,8 +1,5 @@
-# explain.how_to_setup_dotnet_core_dev_env.by_vscode
-VSCode で .NET Core の開発環境を構築する方法について説明する。
-
 # VSCode で .NET Core の開発環境構築
-VSCode + .NET CoreでC#の開発環境を構築する方法についてまとめました。
+VSCode で .NET Core の開発環境を構築する方法について説明する。
 
 ## .NET Core とは
 「.NET Core」は、Microsoft 社が開発しているオープンソースのソフトウェアフレームワーク。
